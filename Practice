@@ -1,0 +1,41 @@
+weight = 5
+
+#Ground shipping
+
+if weight <= 2:
+  shipping_cost = weight * 1.5 + 20
+  print("Your package weighs", weight, "lbs. The cost of shipping this package is ", "$", shipping_cost)
+
+elif weight > 2 and weight <= 6:
+  shipping_cost = weight * 3 + 20
+  print("Your package weighs", weight, "lbs. The cost of shipping this package is ", "$", shipping_cost)
+
+elif weight > 6 and weight <= 10:
+  shipping_cost = weight * 4 + 20
+  print("Your package weighs", weight, "lbs. The cost of shipping this package is ", "$", shipping_cost)
+
+elif weight > 10:
+  shipping_cost = weight * 4.75 + 20
+  print("Your package weighs", weight, "lbs. The cost of shipping this package is ", "$",shipping_cost)
+
+#Premium shipping
+
+print("For premium shipping, your package will cost $125.00")
+
+#Drone shipping
+
+if weight <= 2:
+  shipping_cost = weight * 4.5
+  print("Your package weighs", weight, "lbs. The cost of Drone shipping this package is ", "$", shipping_cost)
+
+elif weight > 2 and weight <= 6:
+  shipping_cost = weight * 9
+  print("Your package weighs", weight, "lbs. The cost of Drone shipping this package is ", "$", shipping_cost)
+
+elif weight > 6 and weight <= 10:
+  shipping_cost = weight * 12
+  print("Your package weighs", weight, "lbs. The cost of Drone shipping this package is ", "$", shipping_cost)
+
+elif weight > 10:
+  shipping_cost = weight * 14.25
+  print("Your package weighs", weight, "lbs. The cost of Drone shipping this package is ", "$",shipping_cost)
